@@ -1,0 +1,9 @@
+[submodule "yuki"]
+	path = yuki
+url=git@git.linecorp.com:desktop-dev/yuki.git
+[submodule "sdk-desktop/dist-mac"]
+	path = sdk-desktop/dist-mac
+	url = git@git.linecorp.com:yuki/yuki-dist-mac.git
+[submodule "NeuralLine"]
+	path = NeuralLine
+url=git@git.linecorp.com:desktop-dev/NeuralLine.git
