@@ -10,7 +10,7 @@
 class UIGlWidget: public QOpenGLWidget,protected QOpenGLFunctions_3_3_Core
 {
 public:
-    UIGlWidget();
+    UIGlWidget(QWidget *parent = nullptr);
     ~UIGlWidget();
 
     // QOpenGLWidget interface
